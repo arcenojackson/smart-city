@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:15
+    container_name: sc_postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: smart-city
+  rabbitmq:
+    image: rabbitmq:management
+    container_name: sc_rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
