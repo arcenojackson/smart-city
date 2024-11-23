@@ -2,7 +2,7 @@
 
 ## Tech Stack and Architecture:
 
-- API Gateway: Kong For routing and aggregating requests.
+- API Gateway: Kong for routing and aggregating requests.
 - Message Queue: RabbitMQ for service-to-service communication.
 - Database:
   - Shared DB (PostgreSQL) for simple MVP.
