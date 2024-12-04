@@ -11,7 +11,7 @@
 
 ### Backend services
 
-- Authentication Service (NodeJS/TypeScript)
+- Authentication Service (TypeScript/NestJS)
 
 Handles user login, registration, and token generation (JWT).
 Future: Add OAuth2, multi-factor authentication.
@@ -21,12 +21,12 @@ Future: Add OAuth2, multi-factor authentication.
 Real-time vehicle data ingestion and processing using WebSockets or gRPC.
 Future: Integrate AI/ML for traffic predictions.
 
-- Weather Analytics Service (Python)
+- Weather Analytics Service (Python/Flask)
 
 Fetches and analyzes weather data (e.g., via APIs like OpenWeatherMap) and provides predictions.
 Future: Add historical weather trends or alerting features.
 
-- Event Scheduling Service (Java)
+- Event Scheduling Service (Java/SpringBoot)
 
 Allows users to create and manage public events (concerts, meetups, etc.).
 Future: Add calendar sync, notifications.
