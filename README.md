@@ -16,10 +16,10 @@
 Handles user login, registration, and token generation (JWT).
 Future: Add OAuth2, multi-factor authentication.
 
-- Traffic Monitoring Service (Go)
+- Notifications Service (Go)
 
-Real-time vehicle data ingestion and processing using WebSockets or gRPC.
-Future: Integrate AI/ML for traffic predictions.
+Manage and handles all system notifications, by email.
+Future: Add Push notifications.
 
 - Weather Analytics Service (Python/Flask)
 
@@ -44,6 +44,10 @@ Interactive features like live traffic maps, event calendars, and weather widget
 - IoT Device Management Service (Rust)
 
 Manages sensors/devices in a smart city, ensuring secure and efficient communication.
+
+- Traffic Monitoring Service (Go)
+
+Real-time vehicle data ingestion and processing using WebSockets or gRPC.
 
 - Billing Service (C#)
 
